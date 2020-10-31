@@ -1,0 +1,423 @@
+@import url("https://fonts.googleapis.com/css2?family=Graduate&display=swap");
+body {
+  background-color: black;
+  min-height: 100vh;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.bettorsight_head_container {
+  position: relative;
+}
+
+.bettorsight_head_wrappper {
+  width: 100%;
+  position: relative;
+  z-index: 9;
+  max-width: 100%;
+}
+
+.bettorsight_head {
+  z-index: 9;
+  max-width: 100%;
+}
+
+.bettorsight_head div {
+  position: relative;
+}
+
+.betorsight_head_bg {
+  min-height: 100vh;
+  position: absolute;
+  width: 100%;
+  max-width: 100%;
+  background-image: url("./assets/img/bg-100.png");
+  background-size: cover;
+  -webkit-animation: 3s anim_Page_bg forwards ease 0s;
+          animation: 3s anim_Page_bg forwards ease 0s;
+  z-index: 1;
+}
+
+.betorsight_head_bg_overlay {
+  min-height: 100vh;
+  position: absolute;
+  width: 100%;
+  max-width: 100%;
+  z-index: 3;
+  opacity: 0;
+  background-color: black;
+  -webkit-animation: 0.5s anim_Page_opacity forwards ease 2.5s;
+          animation: 0.5s anim_Page_opacity forwards ease 2.5s;
+}
+
+.position-relative {
+  position: relative;
+}
+
+@-webkit-keyframes anim_Page_bg {
+  from {
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes anim_Page_bg {
+  from {
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@-webkit-keyframes anim_Page_opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.2;
+  }
+}
+
+@keyframes anim_Page_opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.2;
+  }
+}
+
+path.bettorsight {
+  fill: transparent;
+  stroke-width: 5px;
+  stroke-linejoin: bevel;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  stroke-opacity: 1;
+  overflow: hidden;
+  stroke: white;
+}
+
+.bettorsight_head {
+  margin-top: 20vh;
+}
+
+.path.bettorsight.loc_0 {
+  stroke-dasharray: 617.1148681640625px;
+  stroke-dashoffset: 617.1148681640625px;
+  -webkit-animation: 1s anim_bettorsight_loc_0 forwards ease 3.3s;
+          animation: 1s anim_bettorsight_loc_0 forwards ease 3.3s;
+}
+
+@-webkit-keyframes anim_bettorsight_loc_0 {
+  from {
+    stroke-dashoffset: 617.1148681640625px;
+  }
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+
+@keyframes anim_bettorsight_loc_0 {
+  from {
+    stroke-dashoffset: 617.1148681640625px;
+  }
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+
+.path.bettorsight.loc_1 {
+  stroke-dasharray: 474.2384338378906px;
+  stroke-dashoffset: 474.2384338378906px;
+  -webkit-animation: 1s anim_bettorsight_loc_0 forwards ease 4.1s;
+          animation: 1s anim_bettorsight_loc_0 forwards ease 4.1s;
+}
+
+@-webkit-keyframes anim_bettorsight_loc_1 {
+  from {
+    stroke-dashoffset: 474.2384338378906px;
+  }
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+
+@keyframes anim_bettorsight_loc_1 {
+  from {
+    stroke-dashoffset: 474.2384338378906px;
+  }
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+
+.path.bettorsight.loc_2 {
+  stroke-dasharray: 384.4800720214844px;
+  stroke-dashoffset: 384.4800720214844px;
+  -webkit-animation: 1s anim_bettorsight_loc_0 forwards ease 4.8999999999999995s;
+          animation: 1s anim_bettorsight_loc_0 forwards ease 4.8999999999999995s;
+}
+
+@-webkit-keyframes anim_bettorsight_loc_2 {
+  from {
+    stroke-dashoffset: 384.4800720214844px;
+  }
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+
+@keyframes anim_bettorsight_loc_2 {
+  from {
+    stroke-dashoffset: 384.4800720214844px;
+  }
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+
+.path.bettorsight.loc_3 {
+  stroke-dasharray: 384.4800720214844px;
+  stroke-dashoffset: 384.4800720214844px;
+  -webkit-animation: 1s anim_bettorsight_loc_0 forwards ease 5.699999999999999s;
+          animation: 1s anim_bettorsight_loc_0 forwards ease 5.699999999999999s;
+}
+
+@-webkit-keyframes anim_bettorsight_loc_3 {
+  from {
+    stroke-dashoffset: 384.4800720214844px;
+  }
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+
+@keyframes anim_bettorsight_loc_3 {
+  from {
+    stroke-dashoffset: 384.4800720214844px;
+  }
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+
+.path.bettorsight.loc_4 {
+  stroke-dasharray: 417.0151672363281px;
+  stroke-dashoffset: 417.0151672363281px;
+  -webkit-animation: 1s anim_bettorsight_loc_0 forwards ease 6.499999999999999s;
+          animation: 1s anim_bettorsight_loc_0 forwards ease 6.499999999999999s;
+}
+
+@-webkit-keyframes anim_bettorsight_loc_4 {
+  from {
+    stroke-dashoffset: 417.0151672363281px;
+  }
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+
+@keyframes anim_bettorsight_loc_4 {
+  from {
+    stroke-dashoffset: 417.0151672363281px;
+  }
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+
+.path.bettorsight.loc_5 {
+  stroke-dasharray: 487.2476501464844px;
+  stroke-dashoffset: 487.2476501464844px;
+  -webkit-animation: 1s anim_bettorsight_loc_0 forwards ease 7.299999999999999s;
+          animation: 1s anim_bettorsight_loc_0 forwards ease 7.299999999999999s;
+}
+
+@-webkit-keyframes anim_bettorsight_loc_5 {
+  from {
+    stroke-dashoffset: 487.2476501464844px;
+  }
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+
+@keyframes anim_bettorsight_loc_5 {
+  from {
+    stroke-dashoffset: 487.2476501464844px;
+  }
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+
+.path.bettorsight.loc_6 {
+  stroke-dasharray: 580.4131469726562px;
+  stroke-dashoffset: 580.4131469726562px;
+  -webkit-animation: 1s anim_bettorsight_loc_0 forwards ease 8.1s;
+          animation: 1s anim_bettorsight_loc_0 forwards ease 8.1s;
+}
+
+@-webkit-keyframes anim_bettorsight_loc_6 {
+  from {
+    stroke-dashoffset: 580.4131469726562px;
+  }
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+
+@keyframes anim_bettorsight_loc_6 {
+  from {
+    stroke-dashoffset: 580.4131469726562px;
+  }
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+
+.path.bettorsight.loc_7 {
+  stroke-dasharray: 254.8800048828125px;
+  stroke-dashoffset: 254.8800048828125px;
+  -webkit-animation: 1s anim_bettorsight_loc_0 forwards ease 8.9s;
+          animation: 1s anim_bettorsight_loc_0 forwards ease 8.9s;
+}
+
+@-webkit-keyframes anim_bettorsight_loc_7 {
+  from {
+    stroke-dashoffset: 254.8800048828125px;
+  }
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+
+@keyframes anim_bettorsight_loc_7 {
+  from {
+    stroke-dashoffset: 254.8800048828125px;
+  }
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+
+.path.bettorsight.loc_8 {
+  stroke-dasharray: 441.96783447265625px;
+  stroke-dashoffset: 441.96783447265625px;
+  -webkit-animation: 1s anim_bettorsight_loc_0 forwards ease 9.700000000000001s;
+          animation: 1s anim_bettorsight_loc_0 forwards ease 9.700000000000001s;
+}
+
+@-webkit-keyframes anim_bettorsight_loc_8 {
+  from {
+    stroke-dashoffset: 441.96783447265625px;
+  }
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+
+@keyframes anim_bettorsight_loc_8 {
+  from {
+    stroke-dashoffset: 441.96783447265625px;
+  }
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+
+.path.bettorsight.loc_9 {
+  stroke-dasharray: 545.2794799804688px;
+  stroke-dashoffset: 545.2794799804688px;
+  -webkit-animation: 1s anim_bettorsight_loc_0 forwards ease 10.500000000000002s;
+          animation: 1s anim_bettorsight_loc_0 forwards ease 10.500000000000002s;
+}
+
+@-webkit-keyframes anim_bettorsight_loc_9 {
+  from {
+    stroke-dashoffset: 545.2794799804688px;
+  }
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+
+@keyframes anim_bettorsight_loc_9 {
+  from {
+    stroke-dashoffset: 545.2794799804688px;
+  }
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+
+.path.bettorsight.loc_10 {
+  stroke-dasharray: 384.4800720214844px;
+  stroke-dashoffset: 384.4800720214844px;
+  -webkit-animation: 1s anim_bettorsight_loc_0 forwards ease 11.300000000000002s;
+          animation: 1s anim_bettorsight_loc_0 forwards ease 11.300000000000002s;
+}
+
+@-webkit-keyframes anim_bettorsight_loc_10 {
+  from {
+    stroke-dashoffset: 384.4800720214844px;
+  }
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+
+@keyframes anim_bettorsight_loc_10 {
+  from {
+    stroke-dashoffset: 384.4800720214844px;
+  }
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+
+.tagline {
+  font-family: 'Graduate', cursive;
+  color: white;
+  z-index: 9;
+  position: relative;
+}
+
+.tagline_wrapper {
+  z-index: 9;
+  position: relative;
+}
+
+.tagline_wrapper .cursor {
+  font-size: 25px;
+  color: white;
+  -webkit-animation: 0.5s anim_blink alternate infinite ease;
+          animation: 0.5s anim_blink alternate infinite ease;
+}
+
+@-webkit-keyframes anim_blink {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.9;
+  }
+}
+
+@keyframes anim_blink {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.9;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
